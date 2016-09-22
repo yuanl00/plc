@@ -11,8 +11,8 @@ angular.module('moviecat', [
 // 定义常量
 .constant('Appconfig', {
 	pageSize : 10,
-	listApiAdd : 'http://api.douban.com/v2/movie/',
-	detailApiAdd : 'http://api.douban.com/v2/movie/subject/'
+	listApiAdd : '//api.douban.com/v2/movie/',
+	detailApiAdd : '//api.douban.com/v2/movie/subject/'
 })
 // 定义路由配置
 .config(['$routeProvider', function($routeProvider) {
