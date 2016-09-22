@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<!--start-smoth-scrolling-->
+</head>
+<body>
+	<!--start-header-->
+	<div class="header" id="home">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img width="180" height="77 "src="images/logo.png" alt="" /></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="hvr-bounce-to-top">主页 <span class="sr-only">(current)</span></a></li>
+					<li><a href="zuoping.html" class="hvr-bounce-to-top">作品</a></li>
+					<li><a href="skill.html" class="hvr-bounce-to-top">skill</a></li>
+					<li><a href="contact.html" class="hvr-bounce-to-top">联系我</a></li>
+					<li><a href="" class="hvr-bounce-to-top">更多>></a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<!--end-header-->
+	<!--start-banner-->
+	<div class="banner">
+		<div class="container">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-top">
+								<!--<h1>Quisque ante ipsum</h1>-->
+								<h2> Bill Gates——</h2>
+								<p>用代码行数来衡量程序的开发进度，就好比用重量来衡量飞机的制造进度。</p>
+								<div class="bnr-btn">
+									<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<!--<h1>Phasellus quis nunc</h1>-->
+								<h2>N.J. Rubenking——</h2>
+								<p>软件开发的时间通常是这样的：一开始的90%开发工作用掉了整个计划90%的时间，剩下的10%同样需要整个计划90%的时间，而最终发布前的修改也是如此。</p>
+								<div class="bnr-btn">
+									<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<!--<h1>Donec aliquet lacinia</h1>-->
+								<h2>Jim McCarthy——</h2>
+								<p>没有好的团队就开发不出好的软件，但绝大多数的软件开发团队看起来就像不健全的家庭一样。</p>
+								<div class="bnr-btn">
+									<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!--end-banner-->
+	<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+	<!--End-slider-script-->	
+	<!--start-provide-->
+	<div class="provide">
+		<div class="col-md-3 provide-left provide-one">
+			<h5>ECMAScript DOM BOM </h5>
+			<h3>JavaScript</h3>
+			<p>熟练使用 JavaScript 实现相关功能.</p>
+		</div>
+		<div class="col-md-3 provide-left provide-two">
+			<h5>Html - Html5</h5>
+			<h3>HTML5</h3>
+			<p>能够书写 结构清晰 易维护的 HTML</p>
+		</div>
+		<div class="col-md-3 provide-left provide-tre">
+			<h5>Css2 - Css3</h5>
+			<h3>CSS3</h3>
+			<p>还原视觉设计 兼容主流浏览器</p>
+		</div>
+		<div class="col-md-3 provide-left provide-four">
+			<h5>Ajax - Jsonp</h5>
+			<h3>Ajax</h3>
+			<p> Asynchronous Javascript And XML</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--end-provide-->
+	<!--start-welcome-->
+	<!--end-footer-->
+</body>
+</html>
